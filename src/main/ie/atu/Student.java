@@ -30,6 +30,10 @@ public class Student {
     //Display Student B Data
     public void displayInfoB(){System.out.println("STUDENT 2\n" + "Name: "+ studentBName + " \n"+ "Email: " + studentBEmail + " \n"+ "Course: " + studentBCourse + "\n\n");}
 
+    //Display Student C Data
+    public void displayInfoC(){System.out.println("STUDENT 3\n" + "Name: "+ studentCName + " \n"+ "Email: " + studentCEmail + " \n"+ "Course: " + studentCCourse + "\n\n");}
+
+
 
     //Getters
     public String getStudentBEmail(){
@@ -56,6 +60,7 @@ public class Student {
     public void setCourseBName(String studentBCourse){
         this.studentBCourse = studentBCourse;
     }
+
 
     public void setName(String studentName){this.studentName= studentName;}
     public void setEmail(String studentEmail){this.studentEmail=studentEmail;}

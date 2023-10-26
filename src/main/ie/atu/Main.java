@@ -30,8 +30,21 @@ public class Main {
         user2.setCourseBName(scanner.nextLine());
         System.out.print("\n");
 
+        //Student 3
+        System.out.print("STUDENT 3\n");
+        System.out.print("Enter Student Name: ");
+        Name3 = scanner.nextLine();
+        System.out.print("Enter Student Email: ");
+        Email3 = scanner.nextLine();
+        System.out.print("Enter Student Course: ");
+        Course3 = scanner.nextLine();
+        Student user3 = new Student(Name3,Email3,Course3);
+        System.out.print("\n");
+
 
         user1.displayInfo();
         user2.displayInfoB();
+        user3.displayInfoC();
+
         }
     }
